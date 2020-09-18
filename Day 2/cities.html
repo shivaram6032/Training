@@ -1,0 +1,73 @@
+<html>
+<head>
+    <style>
+        
+    .heading {
+        background-color: grey ;
+        text-align: center;
+        padding: 5%;
+    }
+    .middle {
+        display: flex;
+        flex-direction: row;
+    
+    }
+    .places {
+        float: left;
+        background-color: silver ;
+        padding-top: 1%;
+        height: 335px;
+        width: 15%;
+        margin-right: 10px;
+    }
+    .content{
+        justify-content: center;
+        background-color: white;
+        width: 85%;
+    }
+    .ending {
+        background-color:grey;
+        text-align: center;
+        padding: 5%;
+    }
+    </style>
+</head>
+
+<body>
+    
+    <div class="heading">
+        <h1>Cities</h1>
+    </div>
+    <div class="middle">
+        <div class="places">
+            <ul>
+            <li><a href= "london.html">London</a></li>
+            <li><a href= "paris.html">Paris</a></li>
+            <li><a href= "tokyo.html">Tokyo</a></li>
+           
+            </ul>
+        </div>
+    
+        <div class="content">
+            <h3>London</h3>
+            <p>London, the capital of England and the United Kingdom, is a 21st-century city with history stretching back to Roman times.<br><br> At its centre stand the imposing Houses of Parliament, the iconic ‘Big Ben’ clock tower and Westminster Abbey, site of British monarch coronations.<br><br> Across the Thames River, the London Eye observation wheel provides panoramic views of the South Bank cultural complex, and the entire city.</p>
+            <p id="Text">London is Blue</p>
+            <button onclick="clickhere()">Click Here!</button>
+            
+            <script>
+ 
+                function clickhere() {
+                    document.getElementById("Text").innerText
+                }
+         
+            </script>
+        </div>
+
+    </div>
+
+    <div class="ending">
+
+    </div>
+    
+</body>
+</html>

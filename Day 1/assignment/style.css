@@ -1,0 +1,32 @@
+
+.heading {
+    background-color: black ;
+    text-align: center;
+    padding: 5%;
+}
+.middle {
+    display: flex;
+    flex-direction: row;
+    
+}
+.players {
+    float: left;
+    background-color: wheat ;
+    padding-top: 1%;
+    height: 335px;
+    width: 15%;
+    margin-right: 10px;
+    
+}
+.content{
+    justify-content: center;
+    background-color: aqua;
+    width: 85%;
+    
+}
+
+.ending {
+    background-color: black ;
+    text-align: center;
+    padding: 5%;
+}

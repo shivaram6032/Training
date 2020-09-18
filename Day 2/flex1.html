@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <style>
+            .main-container{
+                display: flex;
+                background-color: aqua;
+                flex-direction: column;
+                height: 300px;
+                
+
+
+            }
+            .yo{
+                display: flex;
+                @media(min-width: 300px;)flex-direction: row;
+                flex-wrap: wrap;
+            }
+
+            .block{
+                background-color: bisque;
+                margin: 3px;
+                width: 200px;
+                height: 100px;
+                }
+        </style>
+    </head>
+
+    <body>
+        <div class="main-container">            
+            <div class="block" >a</div>
+
+            
+            <div class="yo">
+                <div class="block">b</div>
+                <div class="block">c</div>
+                <div class="block">d</div>
+                <div class="block">e</div>
+                <div class="block">f</div>
+                <div class="block">g</div>
+            </div>
+        </div>
+    </body>
+</html>
