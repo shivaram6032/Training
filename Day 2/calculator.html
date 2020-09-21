@@ -1,0 +1,33 @@
+<html>
+    <head></head>
+    <body>
+        input1: <input type="number" id="a"><br><br>
+        input2: <input type="number" id="b"><br>
+        <p id="ans"></p>
+
+        <button onclick="calculator('+')">Add</button>
+        <button onclick="calculator('-')">Subtract</button>
+        <button onclick="calculator('*')">Multiply</button>
+        <button onclick="calculator('/')">Divide</button>
+
+        <script>                     
+            function calculator(opt){
+                    var a = parseInt(document.getElementById("a").value);
+                    var b = parseInt(document.getElementById("b").value);
+                if (opt =="+"){
+                    
+                    document.getElementById('ans').innerHTML = (a+b)
+                }
+                else if (opt == "-"){
+                    document.getElementById('ans').innerHTML = (a-b)
+                }
+                else if (opt == "*"){
+                    document.getElementById('ans').innerHTML = (a*b)
+                }
+                else if (opt == "/"){
+                    document.getElementById('ans').innerHTML = (a/b)
+                }
+            }
+        </script>
+    </body>
+</html>
