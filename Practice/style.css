@@ -1,14 +1,20 @@
 .page1{
+    background-image: url('wall.jpg');
     text-align: center;
-    justify-content: center;
+    padding-top: 25%;
+    padding-bottom: 25%;
 }
 .heading{
     background-color: grey;
     text-align: center;
     padding: 5%;
 }
+.middle{
+    display: flex;
+    flex-direction: row;
+}
 .list{
     background-color: silver;
     width: 15%;
-    padding: 0.1%;
+    padding-left: 1%;
 }
