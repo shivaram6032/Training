@@ -1,0 +1,24 @@
+{
+  "name": "training",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shivaram6032/Training.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shivaram6032/Training/issues"
+  },
+  "homepage": "https://github.com/shivaram6032/Training#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "node-fetch": "^2.6.1",
+    "underscore": "^1.11.0"
+  }
+}
