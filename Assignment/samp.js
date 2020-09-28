@@ -1,13 +1,13 @@
-let p = new Promise((resolve, reject)=>{
-    let a = 1 + 1
-    if(a == 2){
-        resolve("Success")
-    }else {
-        reject("Fail")
-    }
-})
-p.then((message)=>{
-    console.log("Then " + message)
-}).catch((message)=>{
-    console.log("Catch " + message)
-})
+// function objectLength() {
+//     var student = {
+//         name : "David Rayy",
+//         sclass : "VI",
+//         rollno : 12 };
+//     var len = Object.keys(student).length
+//     console.log(len)
+// }
+// objectLength()
+var a = "This kid is awesome."
+var b = " really"
+var output = [a.slice(0, 11), b, a.slice(11)].join('')
+console.log(output)
